@@ -2,21 +2,21 @@
   "success": true,
   "attestation": {
     "version": "3.0",
-    "id": "2026-08-01-112c1b",
+    "id": "2026-09-01-b6e91c",
     "content_name": "uv-temperature-knowledge-graph.json",
     "model": "Auto",
     "role": "collaborated",
     "authorship_type": "collab",
-    "timestamp": "2026-08-01T12:35:40.071Z",
+    "timestamp": "2026-09-01T12:22:26.785Z",
     "author": "97115104",
     "document_type": "json",
     "platform": "Cursor",
-    "content_hash": "sha256:afad99ed055fc201ca1e9a8a54397d9b164d40caa3e1f0c4c182db44601c6a4b",
+    "content_hash": "sha256:384504d590fbae3c98ca3d73d93e8f58d381eed3616d5620dc4280ea6abc8390",
     "signature": {
       "type": "hmac-sha256",
       "algorithm": "HMAC-SHA256",
-      "value": "3fc1a7fecb042bb7aa5807f5956bba38a60678a065b2850ce13e19470f679f28",
-      "data_to_sign": "{\"content_hash\":\"sha256:afad99ed055fc201ca1e9a8a54397d9b164d40caa3e1f0c4c182db44601c6a4b\",\"model\":\"Auto\",\"timestamp\":\"2026-08-01T12:35:40.071Z\",\"authorship_type\":\"collab\",\"role\":\"collaborated\"}"
+      "value": "d679e01a2b6cfff53f59403f8ac825c7392b6a4b89853749e32ceae3d57763b8",
+      "data_to_sign": "{\"content_hash\":\"sha256:384504d590fbae3c98ca3d73d93e8f58d381eed3616d5620dc4280ea6abc8390\",\"model\":\"Auto\",\"timestamp\":\"2026-09-01T12:22:26.785Z\",\"authorship_type\":\"collab\",\"role\":\"collaborated\"}"
     },
     "signer": {
       "name": "97115104",
@@ -24,7 +24,7 @@
     }
   },
   "urls": {
-    "verify": "https://attest.97115104.com/verify/?data=eyJ2ZXJzaW9uIjoiMy4wIiwiaWQiOiIyMDI2LTA4LTAxLTExMmMxYiIsImNvbnRlbnRfbmFtZSI6InV2LXRlbXBlcmF0dXJlLWtub3dsZWRnZS1ncmFwaC5qc29uIiwibW9kZWwiOiJBdXRvIiwicm9sZSI6ImNvbGxhYm9yYXRlZCIsImF1dGhvcnNoaXBfdHlwZSI6ImNvbGxhYiIsInRpbWVzdGFtcCI6IjIwMjYtMDgtMDFUMTI6MzU6NDAuMDcxWiIsImF1dGhvciI6Ijk3MTE1MTA0IiwiZG9jdW1lbnRfdHlwZSI6Impzb24iLCJwbGF0Zm9ybSI6IkN1cnNvciIsImNvbnRlbnRfaGFzaCI6InNoYTI1NjphZmFkOTllZDA1NWZjMjAxY2ExZTlhOGE1NDM5N2Q5YjE2NGQ0MGNhYTNlMWYwYzRjMTgyZGI0NDYwMWM2YTRiIiwic2lnbmF0dXJlIjp7InR5cGUiOiJobWFjLXNoYTI1NiIsImFsZ29yaXRobSI6IkhNQUMtU0hBMjU2IiwidmFsdWUiOiIzZmMxYTdmZWNiMDQyYmI3YWE1ODA3ZjU5NTZiYmEzOGE2MDY3OGEwNjViMjg1MGNlMTNlMTk0NzBmNjc5ZjI4IiwiZGF0YV90b19zaWduIjoie1wiY29udGVudF9oYXNoXCI6XCJzaGEyNTY6YWZhZDk5ZWQwNTVmYzIwMWNhMWU5YThhNTQzOTdkOWIxNjRkNDBjYWEzZTFmMGM0YzE4MmRiNDQ2MDFjNmE0YlwiLFwibW9kZWxcIjpcIkF1dG9cIixcInRpbWVzdGFtcFwiOlwiMjAyNi0wOC0wMVQxMjozNTo0MC4wNzFaXCIsXCJhdXRob3JzaGlwX3R5cGVcIjpcImNvbGxhYlwiLFwicm9sZVwiOlwiY29sbGFib3JhdGVkXCJ9In0sInNpZ25lciI6eyJuYW1lIjoiOTcxMTUxMDQiLCJpZCI6Ijk3MTE1MTA0In19",
-    "short": "https://attest.97115104.com/s/7ap4g8zr"
+    "verify": "https://attest.97115104.com/verify/?data=eyJ2ZXJzaW9uIjoiMy4wIiwiaWQiOiIyMDI2LTA5LTAxLWI2ZTkxYyIsImNvbnRlbnRfbmFtZSI6InV2LXRlbXBlcmF0dXJlLWtub3dsZWRnZS1ncmFwaC5qc29uIiwibW9kZWwiOiJBdXRvIiwicm9sZSI6ImNvbGxhYm9yYXRlZCIsImF1dGhvcnNoaXBfdHlwZSI6ImNvbGxhYiIsInRpbWVzdGFtcCI6IjIwMjYtMDktMDFUMTI6MjI6MjYuNzg1WiIsImF1dGhvciI6Ijk3MTE1MTA0IiwiZG9jdW1lbnRfdHlwZSI6Impzb24iLCJwbGF0Zm9ybSI6IkN1cnNvciIsImNvbnRlbnRfaGFzaCI6InNoYTI1NjozODQ1MDRkNTkwZmJhZTNjOThjYTNkNzNkOTNlOGY1OGQzODFlZWQzNjE2ZDU2MjBkYzQyODBlYTZhYmM4MzkwIiwic2lnbmF0dXJlIjp7InR5cGUiOiJobWFjLXNoYTI1NiIsImFsZ29yaXRobSI6IkhNQUMtU0hBMjU2IiwidmFsdWUiOiJkNjc5ZTAxYTJiNmNmZmY1M2Y1OTQwM2Y4YWM4MjVjNzM5MmI2YTRiODk4NTM3NDllMzJjZWFlM2Q1Nzc2M2I4IiwiZGF0YV90b19zaWduIjoie1wiY29udGVudF9oYXNoXCI6XCJzaGEyNTY6Mzg0NTA0ZDU5MGZiYWUzYzk4Y2EzZDczZDkzZThmNThkMzgxZWVkMzYxNmQ1NjIwZGM0MjgwZWE2YWJjODM5MFwiLFwibW9kZWxcIjpcIkF1dG9cIixcInRpbWVzdGFtcFwiOlwiMjAyNi0wOS0wMVQxMjoyMjoyNi43ODVaXCIsXCJhdXRob3JzaGlwX3R5cGVcIjpcImNvbGxhYlwiLFwicm9sZVwiOlwiY29sbGFib3JhdGVkXCJ9In0sInNpZ25lciI6eyJuYW1lIjoiOTcxMTUxMDQiLCJpZCI6Ijk3MTE1MTA0In19",
+    "short": "https://attest.97115104.com/s/xx0j54m3"
   }
 }

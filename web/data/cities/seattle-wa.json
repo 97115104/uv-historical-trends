@@ -2449,6 +2449,14 @@
         "yoy_delta": -0.15,
         "value_raw": 7.45,
         "source": "open_meteo_who"
+      },
+      {
+        "date": "2026-08",
+        "value": 7.05,
+        "yoy_pct": 2.1739,
+        "yoy_delta": 0.15,
+        "value_raw": 7.05,
+        "source": "open_meteo_who"
       }
     ],
     "temperature": [
@@ -5718,9 +5726,15 @@
       },
       {
         "date": "2026-07",
-        "value": 18.7269,
+        "value": 18.8032,
         "yoy_pct": null,
-        "yoy_delta": -0.8634
+        "yoy_delta": -0.7871
+      },
+      {
+        "date": "2026-08",
+        "value": 19.4769,
+        "yoy_pct": null,
+        "yoy_delta": -0.2328
       }
     ]
   },
@@ -5729,7 +5743,7 @@
       "min": 0.06,
       "max": 9.2595,
       "start_value": 0.1,
-      "end_value": 7.45,
+      "end_value": 7.05,
       "seasonal_baseline": {
         "1": 0.5042,
         "2": 0.8758,
@@ -5738,7 +5752,7 @@
         "5": 7.2107,
         "6": 7.6883,
         "7": 7.7724,
-        "8": 6.6584,
+        "8": 6.6734,
         "9": 6.2642,
         "10": 3.9999,
         "11": 2.6529,
@@ -5756,14 +5770,14 @@
         "source": "nasa_power",
         "confident": true
       },
-      "avg_yoy_pct": 0.9635,
-      "change_1993_to_2026_pct": -1.3245
+      "avg_yoy_pct": 0.9684,
+      "change_1993_to_2026_pct": 12.9953
     },
     "temperature": {
       "min": 1.1964,
       "max": 21.1839,
       "start_value": 6.9032,
-      "end_value": 18.7269,
+      "end_value": 19.4769,
       "seasonal_baseline": {
         "1": 5.5788,
         "2": 6.0055,
@@ -5771,18 +5785,18 @@
         "4": 10.0586,
         "5": 13.2927,
         "6": 16.042,
-        "7": 18.772,
-        "8": 18.9603,
+        "7": 18.7737,
+        "8": 18.9715,
         "9": 16.0321,
         "10": 11.5821,
         "11": 7.7207,
         "12": 5.1553
       },
       "trend": {
-        "per_decade": 0.1502,
-        "total": 0.676,
+        "per_decade": 0.1774,
+        "total": 0.7984,
         "baseline": 11.1352,
-        "recent": 11.7063,
+        "recent": 11.8043,
         "baseline_period": "1981-1990",
         "recent_period": "2017-2026",
         "unit": "degC",
@@ -5790,12 +5804,12 @@
         "source": null,
         "confident": true
       },
-      "avg_yoy_delta": 0.02,
-      "change_delta": 1.3108
+      "avg_yoy_delta": 0.0197,
+      "change_delta": -0.4392
     }
   },
   "period": {
     "start": "1981-01",
-    "end": "2026-07"
+    "end": "2026-08"
   }
 }

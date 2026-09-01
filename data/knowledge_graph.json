@@ -5,15 +5,15 @@
     "period": {
       "start": "1981-01",
       "default_start": "1993-11",
-      "end": "2026-07",
-      "latest_nasa": "2026-07",
+      "end": "2026-08",
+      "latest_nasa": "2026-08",
       "earliest_temperature": "1981-01",
       "earliest_uv": "2001-01",
       "earliest_uv_who": "2021-01",
       "uv_who_start": "2021-01",
-      "calendar_month": "2026-07"
+      "calendar_month": "2026-08"
     },
-    "generated_at": "2026-08-01T12:35:32.952691+00:00",
+    "generated_at": "2026-09-01T12:22:17.232704+00:00",
     "sources": [
       {
         "id": "open_meteo_era5",
@@ -2492,6 +2492,14 @@
             "yoy_pct": 0.5814,
             "yoy_delta": 0.05,
             "value_raw": 8.65,
+            "source": "open_meteo_who"
+          },
+          {
+            "date": "2026-08",
+            "value": 8.3,
+            "yoy_pct": -1.1905,
+            "yoy_delta": -0.1,
+            "value_raw": 8.3,
             "source": "open_meteo_who"
           }
         ],
@@ -5762,9 +5770,15 @@
           },
           {
             "date": "2026-07",
-            "value": 24.7962,
+            "value": 24.9452,
             "yoy_pct": null,
-            "yoy_delta": 2.3672
+            "yoy_delta": 2.5162
+          },
+          {
+            "date": "2026-08",
+            "value": 26.3615,
+            "yoy_pct": null,
+            "yoy_delta": 1.7034
           }
         ]
       },
@@ -5773,7 +5787,7 @@
           "min": 0.48,
           "max": 9.96,
           "start_value": 0.51,
-          "end_value": 8.65,
+          "end_value": 8.3,
           "seasonal_baseline": {
             "1": 1.3085,
             "2": 1.8335,
@@ -5782,7 +5796,7 @@
             "5": 7.9747,
             "6": 8.8021,
             "7": 8.0939,
-            "8": 8.2712,
+            "8": 8.2723,
             "9": 8.0834,
             "10": 6.5178,
             "11": 5.1576,
@@ -5800,14 +5814,14 @@
             "source": "nasa_power",
             "confident": true
           },
-          "avg_yoy_pct": 0.3265,
-          "change_1993_to_2026_pct": 12.415
+          "avg_yoy_pct": 0.3212,
+          "change_1993_to_2026_pct": -1.1905
         },
         "temperature": {
           "min": 10.4613,
           "max": 26.6867,
           "start_value": 14.1968,
-          "end_value": 24.7962,
+          "end_value": 26.3615,
           "seasonal_baseline": {
             "1": 12.8665,
             "2": 13.5382,
@@ -5815,18 +5829,18 @@
             "4": 16.7423,
             "5": 18.6283,
             "6": 21.1049,
-            "7": 23.8036,
-            "8": 24.3866,
+            "7": 23.8068,
+            "8": 24.4295,
             "9": 23.2111,
             "10": 19.9446,
             "11": 15.8783,
             "12": 12.673
           },
           "trend": {
-            "per_decade": 0.2008,
-            "total": 0.9036,
+            "per_decade": 0.2267,
+            "total": 1.0203,
             "baseline": 18.0063,
-            "recent": 18.6689,
+            "recent": 18.7623,
             "baseline_period": "1981-1990",
             "recent_period": "2017-2026",
             "unit": "degC",
@@ -5834,13 +5848,13 @@
             "source": null,
             "confident": true
           },
-          "avg_yoy_delta": 0.0172,
-          "change_delta": 0.1446
+          "avg_yoy_delta": 0.0207,
+          "change_delta": 1.0841
         }
       },
       "period": {
         "start": "1981-01",
-        "end": "2026-07"
+        "end": "2026-08"
       }
     },
     "los-angeles-ca": {
@@ -8293,6 +8307,14 @@
             "yoy_pct": 0.5814,
             "yoy_delta": 0.05,
             "value_raw": 8.65,
+            "source": "open_meteo_who"
+          },
+          {
+            "date": "2026-08",
+            "value": 8.3,
+            "yoy_pct": -1.1905,
+            "yoy_delta": -0.1,
+            "value_raw": 8.3,
             "source": "open_meteo_who"
           }
         ],
@@ -11563,9 +11585,15 @@
           },
           {
             "date": "2026-07",
-            "value": 24.2154,
+            "value": 24.3581,
             "yoy_pct": null,
-            "yoy_delta": 2.338
+            "yoy_delta": 2.4807
+          },
+          {
+            "date": "2026-08",
+            "value": 25.8,
+            "yoy_pct": null,
+            "yoy_delta": 1.5968
           }
         ]
       },
@@ -11574,7 +11602,7 @@
           "min": 0.46,
           "max": 10.2708,
           "start_value": 0.5,
-          "end_value": 8.65,
+          "end_value": 8.3,
           "seasonal_baseline": {
             "1": 1.29,
             "2": 1.7942,
@@ -11583,7 +11611,7 @@
             "5": 7.893,
             "6": 8.7737,
             "7": 8.0062,
-            "8": 8.2703,
+            "8": 8.2715,
             "9": 8.0464,
             "10": 6.5274,
             "11": 5.1334,
@@ -11601,14 +11629,14 @@
             "source": "nasa_power",
             "confident": true
           },
-          "avg_yoy_pct": 0.2239,
-          "change_1993_to_2026_pct": 14.365
+          "avg_yoy_pct": 0.2188,
+          "change_1993_to_2026_pct": -0.1816
         },
         "temperature": {
           "min": 10.7097,
           "max": 26.8167,
           "start_value": 14.3968,
-          "end_value": 24.2154,
+          "end_value": 25.8,
           "seasonal_baseline": {
             "1": 12.9728,
             "2": 13.7559,
@@ -11616,18 +11644,18 @@
             "4": 16.9422,
             "5": 18.6408,
             "6": 20.808,
-            "7": 23.3688,
-            "8": 24.042,
+            "7": 23.3719,
+            "8": 24.0802,
             "9": 23.031,
             "10": 19.9824,
             "11": 16.0085,
             "12": 12.7975
           },
           "trend": {
-            "per_decade": 0.1625,
-            "total": 0.7313,
+            "per_decade": 0.1873,
+            "total": 0.8431,
             "baseline": 18.0483,
-            "recent": 18.5768,
+            "recent": 18.6663,
             "baseline_period": "1981-1990",
             "recent_period": "2017-2026",
             "unit": "degC",
@@ -11635,13 +11663,13 @@
             "source": null,
             "confident": true
           },
-          "avg_yoy_delta": 0.0126,
-          "change_delta": 0.0412
+          "avg_yoy_delta": 0.0159,
+          "change_delta": 1.0161
         }
       },
       "period": {
         "start": "1981-01",
-        "end": "2026-07"
+        "end": "2026-08"
       }
     },
     "san-francisco-ca": {
@@ -14094,6 +14122,14 @@
             "yoy_pct": 0.0,
             "yoy_delta": 0.0,
             "value_raw": 8.4,
+            "source": "open_meteo_who"
+          },
+          {
+            "date": "2026-08",
+            "value": 8.1,
+            "yoy_pct": 0.0,
+            "yoy_delta": 0.0,
+            "value_raw": 8.1,
             "source": "open_meteo_who"
           }
         ],
@@ -17364,9 +17400,15 @@
           },
           {
             "date": "2026-07",
-            "value": 18.1154,
+            "value": 18.2065,
             "yoy_pct": null,
-            "yoy_delta": 1.5412
+            "yoy_delta": 1.6323
+          },
+          {
+            "date": "2026-08",
+            "value": 18.25,
+            "yoy_pct": null,
+            "yoy_delta": -0.2887
           }
         ]
       },
@@ -17375,7 +17417,7 @@
           "min": 0.28,
           "max": 9.45,
           "start_value": 0.36,
-          "end_value": 8.4,
+          "end_value": 8.1,
           "seasonal_baseline": {
             "1": 1.0369,
             "2": 1.5154,
@@ -17384,7 +17426,7 @@
             "5": 7.8554,
             "6": 8.2643,
             "7": 8.0399,
-            "8": 8.2843,
+            "8": 8.2772,
             "9": 7.8857,
             "10": 6.0697,
             "11": 4.3484,
@@ -17402,14 +17444,14 @@
             "source": "nasa_power",
             "confident": true
           },
-          "avg_yoy_pct": 0.456,
-          "change_1993_to_2026_pct": 13.3664
+          "avg_yoy_pct": 0.4543,
+          "change_1993_to_2026_pct": -10.946
         },
         "temperature": {
           "min": 6.6839,
           "max": 20.86,
           "start_value": 10.3645,
-          "end_value": 18.1154,
+          "end_value": 18.25,
           "seasonal_baseline": {
             "1": 9.9905,
             "2": 11.4377,
@@ -17417,18 +17459,18 @@
             "4": 13.9856,
             "5": 15.6306,
             "6": 17.3389,
-            "7": 17.983,
-            "8": 18.2905,
+            "7": 17.985,
+            "8": 18.2896,
             "9": 18.2698,
             "10": 16.5749,
             "11": 12.8992,
             "12": 10.124
           },
           "trend": {
-            "per_decade": 0.1604,
-            "total": 0.7217,
+            "per_decade": 0.1713,
+            "total": 0.771,
             "baseline": 14.3148,
-            "recent": 14.9874,
+            "recent": 15.0268,
             "baseline_period": "1981-1990",
             "recent_period": "2017-2026",
             "unit": "degC",
@@ -17436,13 +17478,13 @@
             "source": null,
             "confident": true
           },
-          "avg_yoy_delta": 0.0228,
-          "change_delta": 0.9606
+          "avg_yoy_delta": 0.0223,
+          "change_delta": 0.8823
         }
       },
       "period": {
         "start": "1981-01",
-        "end": "2026-07"
+        "end": "2026-08"
       }
     },
     "seattle-wa": {
@@ -19895,6 +19937,14 @@
             "yoy_pct": -1.9737,
             "yoy_delta": -0.15,
             "value_raw": 7.45,
+            "source": "open_meteo_who"
+          },
+          {
+            "date": "2026-08",
+            "value": 7.05,
+            "yoy_pct": 2.1739,
+            "yoy_delta": 0.15,
+            "value_raw": 7.05,
             "source": "open_meteo_who"
           }
         ],
@@ -23165,9 +23215,15 @@
           },
           {
             "date": "2026-07",
-            "value": 18.7269,
+            "value": 18.8032,
             "yoy_pct": null,
-            "yoy_delta": -0.8634
+            "yoy_delta": -0.7871
+          },
+          {
+            "date": "2026-08",
+            "value": 19.4769,
+            "yoy_pct": null,
+            "yoy_delta": -0.2328
           }
         ]
       },
@@ -23176,7 +23232,7 @@
           "min": 0.06,
           "max": 9.2595,
           "start_value": 0.1,
-          "end_value": 7.45,
+          "end_value": 7.05,
           "seasonal_baseline": {
             "1": 0.5042,
             "2": 0.8758,
@@ -23185,7 +23241,7 @@
             "5": 7.2107,
             "6": 7.6883,
             "7": 7.7724,
-            "8": 6.6584,
+            "8": 6.6734,
             "9": 6.2642,
             "10": 3.9999,
             "11": 2.6529,
@@ -23203,14 +23259,14 @@
             "source": "nasa_power",
             "confident": true
           },
-          "avg_yoy_pct": 0.9635,
-          "change_1993_to_2026_pct": -1.3245
+          "avg_yoy_pct": 0.9684,
+          "change_1993_to_2026_pct": 12.9953
         },
         "temperature": {
           "min": 1.1964,
           "max": 21.1839,
           "start_value": 6.9032,
-          "end_value": 18.7269,
+          "end_value": 19.4769,
           "seasonal_baseline": {
             "1": 5.5788,
             "2": 6.0055,
@@ -23218,18 +23274,18 @@
             "4": 10.0586,
             "5": 13.2927,
             "6": 16.042,
-            "7": 18.772,
-            "8": 18.9603,
+            "7": 18.7737,
+            "8": 18.9715,
             "9": 16.0321,
             "10": 11.5821,
             "11": 7.7207,
             "12": 5.1553
           },
           "trend": {
-            "per_decade": 0.1502,
-            "total": 0.676,
+            "per_decade": 0.1774,
+            "total": 0.7984,
             "baseline": 11.1352,
-            "recent": 11.7063,
+            "recent": 11.8043,
             "baseline_period": "1981-1990",
             "recent_period": "2017-2026",
             "unit": "degC",
@@ -23237,13 +23293,13 @@
             "source": null,
             "confident": true
           },
-          "avg_yoy_delta": 0.02,
-          "change_delta": 1.3108
+          "avg_yoy_delta": 0.0197,
+          "change_delta": -0.4392
         }
       },
       "period": {
         "start": "1981-01",
-        "end": "2026-07"
+        "end": "2026-08"
       }
     },
     "new-york-ny": {
@@ -25696,6 +25752,14 @@
             "yoy_pct": 0.0,
             "yoy_delta": 0.0,
             "value_raw": 7.95,
+            "source": "open_meteo_who"
+          },
+          {
+            "date": "2026-08",
+            "value": 7.6,
+            "yoy_pct": 1.3333,
+            "yoy_delta": 0.1,
+            "value_raw": 7.6,
             "source": "open_meteo_who"
           }
         ],
@@ -28966,9 +29030,15 @@
           },
           {
             "date": "2026-07",
-            "value": 25.1346,
+            "value": 24.8903,
             "yoy_pct": null,
-            "yoy_delta": -1.2396
+            "yoy_delta": -1.4839
+          },
+          {
+            "date": "2026-08",
+            "value": 24.7192,
+            "yoy_pct": null,
+            "yoy_delta": 2.3289
           }
         ]
       },
@@ -28977,7 +29047,7 @@
           "min": 0.19,
           "max": 8.9109,
           "start_value": 0.22,
-          "end_value": 7.95,
+          "end_value": 7.6,
           "seasonal_baseline": {
             "1": 0.8088,
             "2": 1.2292,
@@ -28986,7 +29056,7 @@
             "5": 7.2849,
             "6": 7.295,
             "7": 7.4974,
-            "8": 7.1471,
+            "8": 7.1646,
             "9": 6.694,
             "10": 5.574,
             "11": 3.9439,
@@ -29004,14 +29074,14 @@
             "source": "nasa_power",
             "confident": true
           },
-          "avg_yoy_pct": 0.4313,
-          "change_1993_to_2026_pct": 6.9008
+          "avg_yoy_pct": 0.4349,
+          "change_1993_to_2026_pct": 13.4278
         },
         "temperature": {
           "min": -6.2286,
           "max": 26.8065,
           "start_value": -5.1258,
-          "end_value": 25.1346,
+          "end_value": 24.7192,
           "seasonal_baseline": {
             "1": -0.3157,
             "2": 0.8109,
@@ -29019,18 +29089,18 @@
             "4": 10.9258,
             "5": 16.5612,
             "6": 21.8565,
-            "7": 24.9176,
-            "8": 23.7857,
+            "7": 24.9123,
+            "8": 23.806,
             "9": 19.9547,
             "10": 13.8533,
             "11": 8.1372,
             "12": 2.9042
           },
           "trend": {
-            "per_decade": 0.2625,
-            "total": 1.1814,
+            "per_decade": 0.3079,
+            "total": 1.3857,
             "baseline": 11.9041,
-            "recent": 12.8852,
+            "recent": 13.0488,
             "baseline_period": "1981-1990",
             "recent_period": "2017-2026",
             "unit": "degC",
@@ -29038,13 +29108,13 @@
             "source": null,
             "confident": true
           },
-          "avg_yoy_delta": 0.012,
-          "change_delta": 0.2411
+          "avg_yoy_delta": 0.0159,
+          "change_delta": 1.6579
         }
       },
       "period": {
         "start": "1981-01",
-        "end": "2026-07"
+        "end": "2026-08"
       }
     }
   },
@@ -35027,6 +35097,26 @@
       "city": "covina-ca",
       "metric": "uv",
       "pct": 0.5814
+    },
+    {
+      "from": "loc:covina-ca",
+      "to": "period:2026-08",
+      "type": "hasPeriod"
+    },
+    {
+      "from": "period:2026-08",
+      "to": "metric:uv",
+      "type": "hasValue",
+      "city": "covina-ca",
+      "value": 8.3
+    },
+    {
+      "from": "period:2026-08",
+      "to": "period:2025-08",
+      "type": "yoyChange",
+      "city": "covina-ca",
+      "metric": "uv",
+      "pct": -1.1905
     },
     {
       "from": "loc:covina-ca",
@@ -41590,7 +41680,19 @@
       "to": "metric:temperature",
       "type": "hasValue",
       "city": "covina-ca",
-      "value": 24.7962
+      "value": 24.9452
+    },
+    {
+      "from": "loc:covina-ca",
+      "to": "period:2026-08",
+      "type": "hasPeriod"
+    },
+    {
+      "from": "period:2026-08",
+      "to": "metric:temperature",
+      "type": "hasValue",
+      "city": "covina-ca",
+      "value": 26.3615
     },
     {
       "from": "loc:los-angeles-ca",
@@ -47499,6 +47601,26 @@
       "city": "los-angeles-ca",
       "metric": "uv",
       "pct": 0.5814
+    },
+    {
+      "from": "loc:los-angeles-ca",
+      "to": "period:2026-08",
+      "type": "hasPeriod"
+    },
+    {
+      "from": "period:2026-08",
+      "to": "metric:uv",
+      "type": "hasValue",
+      "city": "los-angeles-ca",
+      "value": 8.3
+    },
+    {
+      "from": "period:2026-08",
+      "to": "period:2025-08",
+      "type": "yoyChange",
+      "city": "los-angeles-ca",
+      "metric": "uv",
+      "pct": -1.1905
     },
     {
       "from": "loc:los-angeles-ca",
@@ -54062,7 +54184,19 @@
       "to": "metric:temperature",
       "type": "hasValue",
       "city": "los-angeles-ca",
-      "value": 24.2154
+      "value": 24.3581
+    },
+    {
+      "from": "loc:los-angeles-ca",
+      "to": "period:2026-08",
+      "type": "hasPeriod"
+    },
+    {
+      "from": "period:2026-08",
+      "to": "metric:temperature",
+      "type": "hasValue",
+      "city": "los-angeles-ca",
+      "value": 25.8
     },
     {
       "from": "loc:san-francisco-ca",
@@ -59839,6 +59973,26 @@
     {
       "from": "period:2026-07",
       "to": "period:2025-07",
+      "type": "yoyChange",
+      "city": "san-francisco-ca",
+      "metric": "uv",
+      "pct": 0.0
+    },
+    {
+      "from": "loc:san-francisco-ca",
+      "to": "period:2026-08",
+      "type": "hasPeriod"
+    },
+    {
+      "from": "period:2026-08",
+      "to": "metric:uv",
+      "type": "hasValue",
+      "city": "san-francisco-ca",
+      "value": 8.1
+    },
+    {
+      "from": "period:2026-08",
+      "to": "period:2025-08",
       "type": "yoyChange",
       "city": "san-francisco-ca",
       "metric": "uv",
@@ -66406,7 +66560,19 @@
       "to": "metric:temperature",
       "type": "hasValue",
       "city": "san-francisco-ca",
-      "value": 18.1154
+      "value": 18.2065
+    },
+    {
+      "from": "loc:san-francisco-ca",
+      "to": "period:2026-08",
+      "type": "hasPeriod"
+    },
+    {
+      "from": "period:2026-08",
+      "to": "metric:temperature",
+      "type": "hasValue",
+      "city": "san-francisco-ca",
+      "value": 18.25
     },
     {
       "from": "loc:seattle-wa",
@@ -72035,6 +72201,26 @@
       "city": "seattle-wa",
       "metric": "uv",
       "pct": -1.9737
+    },
+    {
+      "from": "loc:seattle-wa",
+      "to": "period:2026-08",
+      "type": "hasPeriod"
+    },
+    {
+      "from": "period:2026-08",
+      "to": "metric:uv",
+      "type": "hasValue",
+      "city": "seattle-wa",
+      "value": 7.05
+    },
+    {
+      "from": "period:2026-08",
+      "to": "period:2025-08",
+      "type": "yoyChange",
+      "city": "seattle-wa",
+      "metric": "uv",
+      "pct": 2.1739
     },
     {
       "from": "loc:seattle-wa",
@@ -78598,7 +78784,19 @@
       "to": "metric:temperature",
       "type": "hasValue",
       "city": "seattle-wa",
-      "value": 18.7269
+      "value": 18.8032
+    },
+    {
+      "from": "loc:seattle-wa",
+      "to": "period:2026-08",
+      "type": "hasPeriod"
+    },
+    {
+      "from": "period:2026-08",
+      "to": "metric:temperature",
+      "type": "hasValue",
+      "city": "seattle-wa",
+      "value": 19.4769
     },
     {
       "from": "loc:new-york-ny",
@@ -84235,6 +84433,26 @@
       "city": "new-york-ny",
       "metric": "uv",
       "pct": 0.0
+    },
+    {
+      "from": "loc:new-york-ny",
+      "to": "period:2026-08",
+      "type": "hasPeriod"
+    },
+    {
+      "from": "period:2026-08",
+      "to": "metric:uv",
+      "type": "hasValue",
+      "city": "new-york-ny",
+      "value": 7.6
+    },
+    {
+      "from": "period:2026-08",
+      "to": "period:2025-08",
+      "type": "yoyChange",
+      "city": "new-york-ny",
+      "metric": "uv",
+      "pct": 1.3333
     },
     {
       "from": "loc:new-york-ny",
@@ -90798,7 +91016,19 @@
       "to": "metric:temperature",
       "type": "hasValue",
       "city": "new-york-ny",
-      "value": 25.1346
+      "value": 24.8903
+    },
+    {
+      "from": "loc:new-york-ny",
+      "to": "period:2026-08",
+      "type": "hasPeriod"
+    },
+    {
+      "from": "period:2026-08",
+      "to": "metric:temperature",
+      "type": "hasValue",
+      "city": "new-york-ny",
+      "value": 24.7192
     },
     {
       "from": "loc:covina-ca",
@@ -90875,70 +91105,70 @@
       "to": "loc:los-angeles-ca",
       "type": "comparedWith",
       "metric": "temperature",
-      "delta_trend_per_decade": 0.0383
+      "delta_trend_per_decade": 0.0394
     },
     {
       "from": "loc:covina-ca",
       "to": "loc:san-francisco-ca",
       "type": "comparedWith",
       "metric": "temperature",
-      "delta_trend_per_decade": 0.0404
+      "delta_trend_per_decade": 0.0554
     },
     {
       "from": "loc:covina-ca",
       "to": "loc:seattle-wa",
       "type": "comparedWith",
       "metric": "temperature",
-      "delta_trend_per_decade": 0.0506
+      "delta_trend_per_decade": 0.0493
     },
     {
       "from": "loc:covina-ca",
       "to": "loc:new-york-ny",
       "type": "comparedWith",
       "metric": "temperature",
-      "delta_trend_per_decade": -0.0617
+      "delta_trend_per_decade": -0.0812
     },
     {
       "from": "loc:los-angeles-ca",
       "to": "loc:san-francisco-ca",
       "type": "comparedWith",
       "metric": "temperature",
-      "delta_trend_per_decade": 0.0021
+      "delta_trend_per_decade": 0.016
     },
     {
       "from": "loc:los-angeles-ca",
       "to": "loc:seattle-wa",
       "type": "comparedWith",
       "metric": "temperature",
-      "delta_trend_per_decade": 0.0123
+      "delta_trend_per_decade": 0.0099
     },
     {
       "from": "loc:los-angeles-ca",
       "to": "loc:new-york-ny",
       "type": "comparedWith",
       "metric": "temperature",
-      "delta_trend_per_decade": -0.1
+      "delta_trend_per_decade": -0.1206
     },
     {
       "from": "loc:san-francisco-ca",
       "to": "loc:seattle-wa",
       "type": "comparedWith",
       "metric": "temperature",
-      "delta_trend_per_decade": 0.0102
+      "delta_trend_per_decade": -0.0061
     },
     {
       "from": "loc:san-francisco-ca",
       "to": "loc:new-york-ny",
       "type": "comparedWith",
       "metric": "temperature",
-      "delta_trend_per_decade": -0.1021
+      "delta_trend_per_decade": -0.1366
     },
     {
       "from": "loc:seattle-wa",
       "to": "loc:new-york-ny",
       "type": "comparedWith",
       "metric": "temperature",
-      "delta_trend_per_decade": -0.1123
+      "delta_trend_per_decade": -0.1305
     }
   ]
 }
